@@ -1,0 +1,207 @@
+{
+  "summary": {
+    "title": "M170720190900_Amenazas",
+    "owner": "Aldo Malaver",
+    "description": "Este modelado permitirá definir las amenazas que hay en mi aplicación"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Aldo Malaver",
+        "$$hashKey": "object:10"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Diagrama1Nube",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0,
+        "$$hashKey": "object:12",
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 50,
+                "y": 50
+              },
+              "angle": 0,
+              "id": "9cbe36e2-9c63-49d3-a354-79fdca16fd69",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Sistemas en la nube"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 325,
+                "y": 244
+              },
+              "angle": 0,
+              "id": "b8b658fb-f191-495d-9227-15872914fd48",
+              "z": 2,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "title": "Comunicación insegura",
+                  "type": "Spoofing",
+                  "description": "Existe la posibilidad de que un hacker pueda ingresar sin credenciales a los sistema on premise basando en una comunicación desde la nube",
+                  "mitigation": "C1: Uso de certificados TLS/SSL para la comunicación segura - Corregido y validado\nC2: Implementación de Whitelist de IP - Corregido y validado",
+                  "$$hashKey": "object:63"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "on premise"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "9cbe36e2-9c63-49d3-a354-79fdca16fd69"
+              },
+              "target": {
+                "id": "b8b658fb-f191-495d-9227-15872914fd48"
+              },
+              "vertices": [
+                {
+                  "x": 249,
+                  "y": 176
+                }
+              ],
+              "id": "35986615-a1cf-4513-93c2-eb21db545359",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5083118606923924,
+                    "offset": 1.0270522828236288
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "flow 2",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 67,
+                "y": 409
+              },
+              "angle": 0,
+              "id": "103920e8-88a2-4ec9-b075-148a43771913",
+              "z": 4,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Datos sensible expuestos",
+                  "type": "Information disclosure",
+                  "description": "Existen credenciales de base de datos expuestas en texto plano",
+                  "mitigation": "C1: Utilizar un encriptado\nC2: Uso un gestor de llaves",
+                  "$$hashKey": "object:81"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "datos de configuración"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "103920e8-88a2-4ec9-b075-148a43771913"
+              },
+              "target": {
+                "id": "b8b658fb-f191-495d-9227-15872914fd48"
+              },
+              "vertices": [],
+              "id": "0514d9da-59e9-4629-aa5d-989a0a03778d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 4",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
+      }
+    ]
+  }
+}
