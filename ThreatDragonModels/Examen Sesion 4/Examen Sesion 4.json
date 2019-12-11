@@ -121,15 +121,17 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "99704b86-b1d7-45ac-9a56-aadbeba3e435"
+                "x": 107,
+                "y": 72
               },
               "target": {
-                "id": "6358d28e-9736-46ee-9a4c-ce67c038c6bd"
+                "x": 110,
+                "y": 297
               },
               "vertices": [
                 {
-                  "x": 74,
-                  "y": 201
+                  "x": 43,
+                  "y": 171
                 }
               ],
               "id": "74d075b8-afdc-4afe-824d-1916070a39de",
@@ -163,12 +165,21 @@
                 "id": "6358d28e-9736-46ee-9a4c-ce67c038c6bd"
               },
               "target": {
-                "id": "99704b86-b1d7-45ac-9a56-aadbeba3e435"
+                "x": 209,
+                "y": 74
               },
               "vertices": [
                 {
-                  "x": 235,
-                  "y": 188
+                  "x": 213,
+                  "y": 284
+                },
+                {
+                  "x": 263,
+                  "y": 223
+                },
+                {
+                  "x": 263,
+                  "y": 136
                 }
               ],
               "id": "3f44ddf9-442d-470c-8132-61d989372d9e",
@@ -202,9 +213,19 @@
                 "id": "6358d28e-9736-46ee-9a4c-ce67c038c6bd"
               },
               "target": {
-                "id": "e0baadb6-e1d6-409b-98fa-384a8cf50fef"
+                "x": 500,
+                "y": 266
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 297,
+                  "y": 268
+                },
+                {
+                  "x": 430,
+                  "y": 261
+                }
+              ],
               "id": "cc2dc673-5514-4859-a934-beff2d3d6428",
               "labels": [
                 {
@@ -297,6 +318,188 @@
                 }
               ],
               "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "e0baadb6-e1d6-409b-98fa-384a8cf50fef"
+              },
+              "target": {
+                "id": "2e4ac34e-73d0-4e8f-933b-41b1c9a2b828"
+              },
+              "vertices": [
+                {
+                  "x": 393,
+                  "y": 365
+                }
+              ],
+              "id": "f75517bc-f5c2-42e4-9c7f-5fbb9e2243a8",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "OS APIs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 136,
+                "y": 261
+              },
+              "target": {
+                "x": 133,
+                "y": 137
+              },
+              "vertices": [],
+              "id": "33a9e96d-7590-481b-b379-97771d6c366e",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "HTML APIs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 200,
+                "y": 122
+              },
+              "target": {
+                "x": 191,
+                "y": 257
+              },
+              "vertices": [],
+              "id": "4a66f122-65a7-4603-9af4-8b045bc32ae3",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Cordova APIs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 477,
+                "y": 305
+              },
+              "target": {
+                "x": 213,
+                "y": 316
+              },
+              "vertices": [],
+              "id": "b5ac65f3-70cc-4933-b769-cd58a38bce54",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Cordova Native APIs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "2e4ac34e-73d0-4e8f-933b-41b1c9a2b828"
+              },
+              "target": {
+                "x": 197,
+                "y": 345
+              },
+              "vertices": [],
+              "id": "e1edc270-c864-4545-808e-2607617c3ebc",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "OS APIs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 14,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
