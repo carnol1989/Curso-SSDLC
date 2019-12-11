@@ -72,8 +72,8 @@
                 "height": 100
               },
               "position": {
-                "x": 408,
-                "y": 148
+                "x": 480,
+                "y": 257
               },
               "angle": 0,
               "id": "e0baadb6-e1d6-409b-98fa-384a8cf50fef",
@@ -88,6 +88,222 @@
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 254,
+                "y": 448
+              },
+              "angle": 0,
+              "id": "2e4ac34e-73d0-4e8f-933b-41b1c9a2b828",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Mobile OS"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "99704b86-b1d7-45ac-9a56-aadbeba3e435"
+              },
+              "target": {
+                "id": "6358d28e-9736-46ee-9a4c-ce67c038c6bd"
+              },
+              "vertices": [
+                {
+                  "x": 74,
+                  "y": 201
+                }
+              ],
+              "id": "74d075b8-afdc-4afe-824d-1916070a39de",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "HTML APIs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "6358d28e-9736-46ee-9a4c-ce67c038c6bd"
+              },
+              "target": {
+                "id": "99704b86-b1d7-45ac-9a56-aadbeba3e435"
+              },
+              "vertices": [
+                {
+                  "x": 235,
+                  "y": 188
+                }
+              ],
+              "id": "3f44ddf9-442d-470c-8132-61d989372d9e",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Cordova APIs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "6358d28e-9736-46ee-9a4c-ce67c038c6bd"
+              },
+              "target": {
+                "id": "e0baadb6-e1d6-409b-98fa-384a8cf50fef"
+              },
+              "vertices": [],
+              "id": "cc2dc673-5514-4859-a934-beff2d3d6428",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Cordova Native APIs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "6358d28e-9736-46ee-9a4c-ce67c038c6bd"
+              },
+              "target": {
+                "id": "2e4ac34e-73d0-4e8f-933b-41b1c9a2b828"
+              },
+              "vertices": [
+                {
+                  "x": 164,
+                  "y": 440
+                }
+              ],
+              "id": "9f7f68d3-c934-4990-bb4a-22d3dc7b8559",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "OS APIs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "2e4ac34e-73d0-4e8f-933b-41b1c9a2b828"
+              },
+              "target": {
+                "id": "e0baadb6-e1d6-409b-98fa-384a8cf50fef"
+              },
+              "vertices": [
+                {
+                  "x": 537,
+                  "y": 416
+                }
+              ],
+              "id": "ffd5f7f3-3222-461e-9a0c-dd206dea609b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "OS APIs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }
